@@ -1,0 +1,11 @@
+este proyecto me permitio realizar pruebas de api,
+aunque no fui capaz de lograrlo usando el framework recomendado utilice la experiencia que tengo en multiples proyectos anteriores para lograr realizar las pruebas
+( mi primer proyecto pruebas automatizadas de api se encuentra publico en mi github)
+sinembargo deseo seguir aprendiendo y ser capaz de desarrollar pruebas en el lenguaje que sea necesario y con las herramientas que me pidan
+tambien cometi un par de errores de endpoint mientra realizaba la prueba pero fui capaz de reconocerlos y corregirlos
+para hacer mas conpletas las pruebas podria una prueba que confirme si se elimino el usuario correctamente, algo asi:
+    def test_confirmar eliminacion():
+        response = get_usuario_consulta (USERNAME)
+        assert response.status_code == 404
+tambien crear pruebas para comprobar los valores del body incluyendo pruebas de valores limite, pruebas negativas y positivas. entre otras
+
